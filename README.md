@@ -1,7 +1,7 @@
 # 🍕 Food Ordering System
 Food Ordering System College Minor Project.
 
-A complete web-based food ordering system built with Python Flask. Perfect for college projects and learning full-stack development.
+A complete web-based food ordering system built with Python Flask.
 
 # ✨ Features
 
@@ -20,6 +20,7 @@ A complete web-based food ordering system built with Python Flask. Perfect for c
 **🚀 Quick Start**
 
 * Prerequisites
+  
 Python 3.7 or higher
 
 pip package manager
@@ -34,6 +35,7 @@ pip install flask flask-sqlalchemy werkzeug
 
 bash
 python app.py
+
 Access the system:
 
 Open: http://localhost:5000
@@ -49,6 +51,7 @@ app.py - Complete Flask application with database models, routes, and templates
 **👥 User Roles**
 
 * Customer Features:
+  
 Register new account
 
 Browse menu by categories
@@ -60,6 +63,7 @@ Place orders with delivery information
 Track order status
 
 * Admin Features:
+  
 View all orders
 
 Update order status (Pending → Preparing → Ready → Delivered)
