@@ -1,10 +1,9 @@
-# Food-Ordering-System
+# 🍕 Food Ordering System
 Food Ordering System College Minor Project.
 
-🍕 Food Ordering System
 A complete web-based food ordering system built with Python Flask. Perfect for college projects and learning full-stack development.
 
-✨ Features
+**✨ Features**
 User Registration & Login - Secure authentication system
 
 Menu Browsing - View food items by categories (Pizza, Burgers, Drinks, Desserts)
@@ -17,7 +16,7 @@ Admin Panel - Manage orders and view analytics
 
 Responsive Design - Works on desktop and mobile
 
-🚀 Quick Start
+**🚀 Quick Start**
 Prerequisites
 Python 3.7 or higher
 
@@ -38,12 +37,12 @@ Open: http://localhost:5000
 
 Admin Login: username admin, password admin123
 
-📁 Project Structure
+**📁 Project Structure**
 The entire system is contained in a single Python file:
 
 app.py - Complete Flask application with database models, routes, and templates
 
-👥 User Roles
+**👥 User Roles**
 Customer Features:
 Register new account
 
@@ -64,14 +63,14 @@ View system statistics (total orders, revenue, users)
 
 Monitor customer activities
 
-🗃️ Database
+**🗃️ Database**
 SQLite database created automatically on first run
 
 Includes sample data: categories, menu items, and admin user
 
 No additional setup required
 
-🛠️ Technology Stack
+**🛠️ Technology Stack*8
 Backend: Python Flask
 
 Database: SQLAlchemy with SQLite
@@ -82,7 +81,7 @@ Frontend: HTML, CSS, JavaScript (embedded in Python)
 
 Styling: Custom CSS with responsive design
 
-📞 Support
+**📞 Support**
 For issues or questions:
 
 Check that all dependencies are installed
