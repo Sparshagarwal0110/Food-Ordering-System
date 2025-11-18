@@ -29,6 +29,7 @@ pip package manager
 * Install dependencies:
 
 bash
+
 pip install flask flask-sqlalchemy werkzeug
 
 * Run the application:
