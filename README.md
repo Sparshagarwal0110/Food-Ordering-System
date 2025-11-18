@@ -96,6 +96,8 @@ Styling: Custom CSS with responsive design
 
 For issues or questions:
 
+email: sparshagarwal0110@gmail.com
+
 Check that all dependencies are installed
 
 Ensure port 5000 is available
