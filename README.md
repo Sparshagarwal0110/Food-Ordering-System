@@ -3,31 +3,34 @@ Food Ordering System College Minor Project.
 
 A complete web-based food ordering system built with Python Flask. Perfect for college projects and learning full-stack development.
 
-**✨ Features**
-User Registration & Login - Secure authentication system
+# ✨ Features
 
-Menu Browsing - View food items by categories (Pizza, Burgers, Drinks, Desserts)
+*User Registration & Login - Secure authentication system
 
-Shopping Cart - Add/remove items with quantity management
+*Menu Browsing - View food items by categories (Pizza, Burgers, Drinks, Desserts)
 
-Order Management - Place orders and track status
+*Shopping Cart - Add/remove items with quantity management
 
-Admin Panel - Manage orders and view analytics
+*Order Management - Place orders and track status
 
-Responsive Design - Works on desktop and mobile
+*Admin Panel - Manage orders and view analytics
+
+*Responsive Design - Works on desktop and mobile
 
 **🚀 Quick Start**
-Prerequisites
+
+*Prerequisites
 Python 3.7 or higher
 
 pip package manager
 
-Installation & Run
-Install dependencies:
+*Installation & Run
+*Install dependencies:
 
 bash
 pip install flask flask-sqlalchemy werkzeug
-Run the application:
+
+*Run the application:
 
 bash
 python app.py
@@ -38,12 +41,14 @@ Open: http://localhost:5000
 Admin Login: username admin, password admin123
 
 **📁 Project Structure**
+
 The entire system is contained in a single Python file:
 
 app.py - Complete Flask application with database models, routes, and templates
 
 **👥 User Roles**
-Customer Features:
+
+*Customer Features:
 Register new account
 
 Browse menu by categories
@@ -54,7 +59,7 @@ Place orders with delivery information
 
 Track order status
 
-Admin Features:
+*Admin Features:
 View all orders
 
 Update order status (Pending → Preparing → Ready → Delivered)
@@ -64,13 +69,15 @@ View system statistics (total orders, revenue, users)
 Monitor customer activities
 
 **🗃️ Database**
+
 SQLite database created automatically on first run
 
 Includes sample data: categories, menu items, and admin user
 
 No additional setup required
 
-**🛠️ Technology Stack*8
+**🛠️ Technology Stack**
+
 Backend: Python Flask
 
 Database: SQLAlchemy with SQLite
@@ -82,6 +89,7 @@ Frontend: HTML, CSS, JavaScript (embedded in Python)
 Styling: Custom CSS with responsive design
 
 **📞 Support**
+
 For issues or questions:
 
 Check that all dependencies are installed
