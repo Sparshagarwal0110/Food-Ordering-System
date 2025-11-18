@@ -5,32 +5,32 @@ A complete web-based food ordering system built with Python Flask. Perfect for c
 
 # ✨ Features
 
-*User Registration & Login - Secure authentication system
+* User Registration & Login - Secure authentication system
 
-*Menu Browsing - View food items by categories (Pizza, Burgers, Drinks, Desserts)
+* Menu Browsing - View food items by categories (Pizza, Burgers, Drinks, Desserts)
 
-*Shopping Cart - Add/remove items with quantity management
+* Shopping Cart - Add/remove items with quantity management
 
-*Order Management - Place orders and track status
+* Order Management - Place orders and track status
 
-*Admin Panel - Manage orders and view analytics
+* Admin Panel - Manage orders and view analytics
 
-*Responsive Design - Works on desktop and mobile
+* Responsive Design - Works on desktop and mobile
 
 **🚀 Quick Start**
 
-*Prerequisites
+* Prerequisites
 Python 3.7 or higher
 
 pip package manager
 
-*Installation & Run
-*Install dependencies:
+* Installation & Run
+* Install dependencies:
 
 bash
 pip install flask flask-sqlalchemy werkzeug
 
-*Run the application:
+* Run the application:
 
 bash
 python app.py
@@ -48,7 +48,7 @@ app.py - Complete Flask application with database models, routes, and templates
 
 **👥 User Roles**
 
-*Customer Features:
+* Customer Features:
 Register new account
 
 Browse menu by categories
@@ -59,7 +59,7 @@ Place orders with delivery information
 
 Track order status
 
-*Admin Features:
+* Admin Features:
 View all orders
 
 Update order status (Pending → Preparing → Ready → Delivered)
