@@ -4,16 +4,13 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
 import os
 
-# Initialize Flask app
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-123'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///restaurant.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-# Initialize database
 db = SQLAlchemy(app)
 
-# Database Models
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
@@ -60,13 +57,11 @@ class OrderItem(db.Model):
     price = db.Column(db.Float, nullable=False)
     menu_item = db.relationship('MenuItem', backref='order_items')
 
-# Initialize database
 def init_db():
     with app.app_context():
         db.create_all()
         
         if Category.query.count() == 0:
-            # Add sample data
             categories = [
                 Category(name="Pizza", description="Delicious pizzas"),
                 Category(name="Burgers", description="Juicy burgers"),
@@ -107,7 +102,6 @@ def init_db():
             
             db.session.commit()
 
-# Helper functions
 def get_user_nav():
     if 'user_id' in session:
         cart_count = len(session.get('cart', {}))
@@ -135,7 +129,6 @@ def flash(message, category='success'):
         session['_flashes'] = []
     session['_flashes'].append((category, message))
 
-# Routes
 @app.route('/')
 def index():
     featured_items = MenuItem.query.filter_by(is_available=True).limit(4).all()
@@ -167,7 +160,6 @@ def index():
     </div>
     '''
     
-    # Base template with proper CSS escaping
     base_template = '''
     <!DOCTYPE html>
     <html>
